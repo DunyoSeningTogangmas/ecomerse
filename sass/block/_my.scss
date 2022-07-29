@@ -1,0 +1,131 @@
+.my {
+  display: flex;
+  margin: auto;
+  &__left {
+    margin-right: 35px;
+  }
+  &__photos {
+    border-radius: 12px;
+    margin-bottom: 32px;
+  }
+}
+.my__right {
+  width: 569px;
+}
+.my__add {
+  display: flex;
+  text-align: center;
+  margin-bottom: 70px;
+  &:first-child {
+    margin-right: 30px;
+  }
+}
+.my__text {
+  color: #151515;
+  font-family: "Poppins";
+  margin-left: 8px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+}
+.my__header {
+  display: flex;
+}
+.desc {
+  &__top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin: auto;
+    padding-bottom: 15px;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 48px;
+  }
+  &__title {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #151515;
+    font-family: "Poppins";
+    padding-bottom: 16px;
+    text-decoration: none;
+    border-bottom: 1px solid #f5f5f5;
+
+    &--active {
+      border-bottom: 1px solid #6a983c;
+    }
+  }
+}
+.desc__origin {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  color: #151515;
+}
+.desc__lorem {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #151515;
+  line-height: 19px;
+  margin-bottom: 32px;
+}
+.p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+  margin-bottom: 23px;
+  color: #151515;
+}
+.tp {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #151515;
+}
+.desc__table__top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid gray;
+}
+.desc__table__bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.pt {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #575757;
+}
+.txt-2 {
+  margin-left: -30px;
+}
+.gg__span {
+  color: #6a983c;
+  font-family: "Poppins";
+  font-style: normal;
+  background-color: #f4f8ec;
+  border-radius: 12px;
+  padding: 0 8px;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+}
