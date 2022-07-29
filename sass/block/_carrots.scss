@@ -15,19 +15,15 @@
    border-radius: 12px;
    padding: 16px;
    span {
-      /* C2/E */
       margin: 12px;
       background: #F4F8EC;
       border-radius: 12px;
       padding: 4px 10px;
-      /* S6/Default */
       font-family: 'Poppins';
       font-style: normal;
       font-weight: 600;
       font-size: 12px;
       line-height: 18px;
-      /* identical to box height */
-      /* C2/A */
       color: #6A983C;
    }
 }
@@ -83,9 +79,9 @@
 }
 
 .reting__star {
+   position: absolute;
    padding: 0;
    margin: 0;
-   position: absolute;
    left: 0;
    top: 0;
    height: 1rem;
@@ -119,7 +115,6 @@
    }
 }
 .carrots__title {
-   /* S1/Default */
    font-family: 'Poppins';
    font-style: normal;
    font-weight: 600;
@@ -145,13 +140,11 @@
    color: #A9A9A9;
 }
 .carrots__descr {
-   /* Lead/Default */
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
    font-size: 17px;
    line-height: 23px;
-   /* C1/A */
    color: #151515;
    margin-bottom: 40px;
 }
@@ -172,15 +165,12 @@
    justify-content: flex-start;
 }
 .carrots__key {
-   /* Body/Default */
    width: 50%;
    font-family: 'Open Sans';
    font-style: normal;
    font-weight: 400;
    font-size: 14px;
    line-height: 19px;
-   /* identical to box height */
-   /* C1/C */
    color: #A9A9A9;
 }
 .carrots__value {
@@ -189,9 +179,7 @@
    font-weight: 400;
    font-size: 14px;
    line-height: 19px;
-   /* identical to box height */
    width: 50%;
-   /* C1/A */
    color: #151515;
    cursor: pointer;
    &:hover {
@@ -203,7 +191,6 @@
 }
 .carrots__footer {
    background: #FFFFFF;
-   /* C1/F */
    padding: 16px;
    border: 1px solid #F5F5F5;
    border-radius: 12px;
@@ -213,7 +200,6 @@
 }
 .carrots__price {
    flex: 1 1 100%;
-   /* S2/Default */
       font-family: 'Poppins';
    strong {
       font-family: 'Poppins';
@@ -221,8 +207,6 @@
       font-weight: 600;
       font-size: 26px;
       line-height: 39px;
-      /* identical to box height */
-      /* C2/A */
       color: #6A983C;
    }
    del {
@@ -231,22 +215,18 @@
       font-weight: 600;
       font-size: 12px;
       line-height: 18px;
-      /* identical to box height */
       display: flex;
       align-items: flex-end;
       text-decoration-line: line-through;
-      /* C1/C */
       color: #A9A9A9;
    }
 }
 .carrots__pcs {
-   /* C1/H */
    background: #F9F9F9;
-   /* C1/D */
    border: 1px solid #D1D1D1;
    border-radius: 12px;
    padding: 15px;
-   transition: all .1s ease-in-out;
+   transition: all .1s ease-in-out;font-family: 'Poppins';
    &:hover {
       position: static;
       transform: scale(1.1);
@@ -256,11 +236,12 @@
    }
    display: flex;
    cursor: pointer;
-   span:first-child {
+   span:first-of-type {
       border-right: 1px solid #D1D1D1;
       padding-right: 15px;
+      color: #D1D1D1;
    }
-   span:last-child {
+   span:last-of-type {
       padding-left: 15px;
       display: block;
       display: flex;
@@ -277,18 +258,14 @@
 }
 .carrots__add-btn {
    background: #6A983C;
-   /* C2/B */
    border: 2px solid #46760A;
    border-radius: 12px;
    cursor: pointer;
-   /* Button/Default */
    font-family: 'Poppins';
    font-style: normal;
    font-weight: 700;
    font-size: 15px;
    line-height: 22px;
-   /* identical to box height */
-   /* C1/J */
    color: #FFFFFF;
    flex: 1 0 auto;
    padding: 12px 16px;
