@@ -450,6 +450,149 @@
   line-height: 18px;
 }
 
+.nissan {
+  margin: 0 auto;
+  max-width: 1170px;
+}
+.nissan__top {
+  display: flex;
+  justify-content: space-between;
+}
+.nissan__top--text {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: "Poppins";
+}
+.nissan__topright--link {
+  font-family: "Poppins";
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 22px;
+  display: flex;
+  transform: translateY(10px);
+  text-decoration: none;
+  color: #151515;
+}
+.nissan__topright--link::after {
+  width: 20px;
+  content: "";
+  display: block;
+  background-image: url(./../../images/right__btn.svg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: space-between;
+}
+.nissan__buttom {
+  padding-top: 64px;
+}
+.nissan__list {
+  max-width: 268px;
+  min-height: 323px;
+  border: 1px solid #d1d1d1;
+  border-radius: 12px;
+  padding: 16px;
+}
+.nissan__img {
+  max-width: 236px;
+  background: #F9F9F9;
+  border-radius: 12px;
+}
+.nissan__text {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 22px;
+}
+.nissan__lorem {
+  margin-top: 4px;
+  font-size: 12px;
+  line-height: 16px;
+  color: #575757;
+}
+.nissan__card--buttom {
+  padding-top: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.nissan__span {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+}
+.nissan____card--buttom {
+  background: #6A983C;
+  border: 2px solid #46760A;
+  border-radius: 12px;
+  padding: 6.5px 12px;
+  font-weight: 700;
+  line-height: 22px;
+  font-size: 15px;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.nissan__card {
+  display: flex;
+}
+.nissan__list:not(:first-child) {
+  margin-left: 32px;
+}
+.nissan__position {
+  position: absolute;
+  top: 10%;
+  left: 12%;
+  background: #F4F8EC;
+  border-radius: 12px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.nissan__ntp {
+  position: relative;
+}
+.nissan__dell {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #A9A9A9;
+}
+
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/poppins-v20-latin-regular.woff2") format("woff2"), url("../fonts/poppins-v20-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  src: url("../fonts/poppins-v20-latin-500.woff2") format("woff2"), url("../fonts/poppins-v20-latin-500.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-600 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../fonts/poppins-v20-latin-600.woff2") format("woff2"), url("../fonts/poppins-v20-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+/* poppins-700 - latin */
+@font-face {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/poppins-v20-latin-700.woff2") format("woff2"), url("../fonts/poppins-v20-latin-700.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+@font-face {
+  font-family: "Open Sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/open-sans-v29-latin-regular.woff2") format("woff2"), url("../fonts/open-sans-v29-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+body {
+  font-family: "poppins", "tahoma", sans-serif;
+}
+
 * {
   box-sizing: border-box;
 }

@@ -1,0 +1,155 @@
+.nissan{
+    margin: 0 auto ;
+    max-width: 1170px;
+    
+    &__top{
+        
+        display: flex;
+        justify-content: space-between;
+       
+        
+    }
+    
+    &__top--text{
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+        font-family: 'Poppins';
+        
+        
+    }
+    
+    &__topright--link{
+        font-family: 'Poppins';
+        font-weight: 700;
+        font-size: 15px;
+        line-height: 22px;
+       
+        display: flex;
+        transform: translateY(10px);
+        text-decoration: none;
+        color: #151515;
+        
+        
+        &::after{
+            width: 20px;
+            content: "";
+            display: block;
+            background-image: url(./../../images/right__btn.svg);
+            background-repeat: no-repeat;
+            background-size:contain;
+            justify-content: space-between;
+            
+            
+        }
+    }
+    
+    &__buttom{
+       
+        padding-top: 64px;
+        // margin-top: 64px;
+    }
+    
+    
+    
+    &__list{
+        max-width: 268px;
+        min-height: 323px;
+        border: 1px solid #d1d1d1;
+        border-radius: 12px;
+        padding: 16px;
+        
+        
+    }
+    &__img{
+        max-width: 236px;
+        background: #F9F9F9;
+        border-radius: 12px;
+    }
+    
+    
+    &__text{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 22px;
+    }
+    
+    &__lorem{
+        margin-top: 4px;
+        font-size: 12px;
+        line-height: 16px;
+        color: #575757;
+    }
+    
+    &__card--buttom{
+        padding-top: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    &__span{
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    
+    &____card--buttom{
+        background: #6A983C;
+        border: 2px solid #46760A;
+        border-radius: 12px;
+        padding: 6.5px 12px;
+        font-weight: 700;
+        line-height: 22px;  
+        font-size: 15px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+    
+    &__card{
+        display: flex;
+        
+        
+    }
+    
+    &__list:not(:first-child){
+        margin-left: 32px;
+        
+    }
+    
+    &__position{
+        position: absolute;
+        top: 10%;
+        left: 12%;
+        background: #F4F8EC;
+        border-radius: 12px;
+        padding-left: 8px;
+        padding-right: 8px;
+    }
+    
+    &__ntp{
+        position: relative;
+        // display: none;
+    }
+    
+    &__dell{
+       
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 18px;
+        color: #A9A9A9;
+    }
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
